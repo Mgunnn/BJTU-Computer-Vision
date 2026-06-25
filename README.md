@@ -35,12 +35,6 @@ lab2/
 │   ├── runs/text_det/weights/
 │   │   └── best.pt               # 训练好的模型权重
 │   └── results/visualizations/   # 检测可视化图片
-│
-├── generate_report.js            # 生成实验报告 .docx（需要 node）
-├── gen_arch_diagram.py           # 生成方案架构图
-├── arch_diagram.png              # 方案架构图
-├── 实验报告.docx                  # 最终实验报告
-├── package.json
 └── .gitignore
 ```
 
@@ -51,11 +45,6 @@ lab2/
 **Python**
 ```bash
 pip install torch torchvision tqdm pillow matplotlib ultralytics
-```
-
-**Node.js**（仅用于生成报告）
-```bash
-npm install
 ```
 
 ---
