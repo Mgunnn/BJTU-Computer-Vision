@@ -1,0 +1,17 @@
+# ── 原始数据集（体积过大，不上传）──
+image_retrieval/base/
+image_retrieval/query/
+image_retrieval/features/
+object_detection/data/
+object_detection/dataset/
+
+# ── Node.js 依赖（npm install 即可恢复）──
+node_modules/
+
+# ── Python 缓存 ──
+__pycache__/
+*.pyc
+*.pyo
+
+# ── 系统文件 ──
+.DS_Store
