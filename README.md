@@ -81,14 +81,6 @@ python object_detection/src/train.py
 python object_detection/src/visualize_detection.py
 ```
 
-### 生成实验报告
-
-```bash
-node generate_report.js
-# 输出：实验报告.docx
-```
-
----
 
 ## 数据集说明
 
@@ -100,24 +92,6 @@ node generate_report.js
 | 检索 query 集 | `image_retrieval/query/` | 135 张查询图片 |
 | 文字检测标注 | `object_detection/data/` | 1494 张 LabelMe JSON 标注 |
 
----
-
-## 实验结果
-
-### P@K 检索精度
-
-| 地点 | P@20 | P@40 | P@60 |
-|------|------|------|------|
-| fhy（芳华园） | 0.910 | 0.890 | 0.840 |
-| nm（南门）    | 0.903 | 0.860 | 0.814 |
-| zx（知行楼）  | 0.904 | 0.880 | 0.845 |
-| kx（科学楼）  | 0.175 | 0.138 | 0.100 |
-
-### 文字检测（YOLOv8n，25 epochs）
-
-| Precision | Recall | mAP50 |
-|-----------|--------|-------|
-| 0.818 | 0.744 | 0.742 |
 
 ---
 
